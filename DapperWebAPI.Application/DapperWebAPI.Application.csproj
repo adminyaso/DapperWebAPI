@@ -13,4 +13,8 @@
     <Folder Include="Queries\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DapperWebAPI.Domain\DapperWebAPI.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
