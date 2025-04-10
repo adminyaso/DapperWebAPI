@@ -1,0 +1,6 @@
+﻿CREATE TABLE CustomersJson
+(
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    CustomerData NVARCHAR(MAX) NOT NULL,
+    CreatedDate DATETIME NOT NULL DEFAULT GETUTCDATE()
+);
